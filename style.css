@@ -1402,4 +1402,31 @@ div.video-player button{
 .font-white{
     color: white;
 }
-/*Video Player*/
+/*Feature-showcase column system*/
+div.row.feature-showcase{
+    margin-top: 0;
+    border-top: 1.5px #f1f1f1 solid;
+}
+
+div.large-2.feature{
+    width: 50%;
+    margin: 0;
+}
+div.large-2.showcase{
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f1f1f1;
+    margin:0;
+}
+
+div.feature img{
+    padding-top: 30%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+
+div.showcase video{
+    width: 50%;
+}
