@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Lois Yang ・ 123Tiles</title>
+ 
+    <link rel="stylesheet" href="style.css" media="screen" />
+   
+
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Noto+Sans:400,700" rel="stylesheet">
+
+
+
+     <script src="scripts/modernizr.js"></script>
+
+</head>
+
+<body>
+    
+    <a href="#cd-nav" class="cd-nav-trigger">Menu 
+        <span class="cd-nav-icon"></span>
+
+        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+        </svg>
+    </a>
+        
+    <div id="cd-nav" class="cd-nav">
+        <div class="cd-navigation-wrapper">
+            <div class="cd-half-block">
+
+
+                <nav>
+                    <ul class="cd-primary-nav">
+                        <li><a href="index.html" class="selected">Work</a></li>
+                        <li><a href="profile.html">About</a></li>
+                        <li><a href="#">Fun</a></li>
+                    </ul>
+                </nav>
+            </div><!-- .cd-half-block -->
+            
+            <div class="cd-half-block">
+                <address>
+                    <ul class="cd-contact-info">
+                        <li><a href="jingqiyanglois@gmail.com">jingqiyanglois@gmail.com</a></li>
+                    </ul>
+                    <ul class="cd-contact-socials">
+                        <li><a href="#0">Instagram</a></li>   
+                        <li><a href="#0">Behance</a></li>   
+                        <li><a href="#0">Dribbble</a></li>    
+                    </ul>
+                </address>
+            </div> <!-- .cd-half-block -->
+        </div> <!-- .cd-navigation-wrapper -->
+    </div> <!-- .cd-nav -->
+
+    <div class="site-container">
+
+        <header class="site-header cf">
+            <div class="site-title"><a href="index.html">LOIS YANG//</a></div>
+            <div class="cf"></div>
+        </header><!-- / .site-header -->
+
+        <section class="site-content">
+        
+            <div class="page-desc">
+                 <h1 class="sans-serif">123Tiles</h1>
+                <p><strong> Launched in:</strong> Feb 2017 ・ <strong>Design:</strong> Lois ・ <strong>Code:</strong> James ・ <strong><a href="https://itunes.apple.com/app/123tiles-free-numbers-race/id1196313854?mt=8" target="_blank"> App Store Page</a></strong> </p>
+                <p>123Tiles is a Number Racing Game. Each level is a real challenge for eyes and fingers. Let's play.</p>
+                <p>Fun fact: One of the creaters of this game can only get to Level 10. It is a hard game.</p>
+            </div>
+            
+            <article class="project">
+
+                <div class="project-assets">
+                    
+                    <div class="video-player center">
+                        <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload" style="width: 100%;display: block" id='video1'>
+                        <source src="video/123Tiles.m4v" type="video/mp4">
+                        </video>
+                        <button id="button1" class="CTA center" onclick="replayWithSound()"><span class="music-bar"> 🎶 </span>Play with Sound</button>
+                    </div>
+                    <script> 
+                        var myVideo = document.getElementById("video1"); 
+                        var button = document.getElementById("button1")
+                        function replayWithSound() {
+                            console.log(myVideo.muted);
+                            if (myVideo.muted ){
+                                myVideo.muted = false;
+                                myVideo.currentTime = 0;
+                                myVideo.play(); 
+                                myVideo.loop = false;
+                                button.innerHTML = "<span class='music-bar'> </span>Mute the Video";
+                            } else {
+                                myVideo.muted = true;
+                                myVideo.loop = true;
+                                button.innerHTML = "<span class='music-bar'> 🎶 </span>Replay with Sound";
+                            }
+                        }
+                    </script> 
+
+                </div>         
+            </article>
+            <div style="width: 100%; background-color:white" class="page-desc center">
+                <br/>
+                 <h3 class="center">"I feel terrible when I lose, but that just makes me want to play more to get the rush from winning."</h3>
+                 <br/><br/>
+                 <h4 class="center">---  App Store Review  ---</h4>
+                 <br/><br/>
+            </div>
+
+            <article class="project">
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature">
+                        <h6 class="sans-serif" style="padding-top: 50%">CAN YOU REACH THE TOP <strong>IN TIME?</strong></h6>
+                    </div>
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <img align="middle" src="img/123Tiles/123Tiles-1.png" alt="feature1" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row center feature-showcase"> 
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <img align="middle" src="img/123Tiles/123Tiles-2.png" alt="feature2" />
+                        </div>
+                    </div>
+                    <div class="large-2 feature">
+                       <h6 class="sans-serif" style="padding-top: 50%">EACH LEVEL GETS <strong>HARDER</strong></h6>
+                    </div>
+                </div>
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature">
+                        <h6 class="sans-serif" style="padding-top: 50%">UNLOCK MORE <strong>BADGES</strong></h6>
+                    </div>
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <img align="middle" src="img/123Tiles/123Tiles-3.png" alt="feature3" />
+                        </div>
+                    </div>
+                </div>   
+                <div class="row center feature-showcase"> 
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <img align="middle" src="img/123Tiles/123Tiles-4.png" alt="feature4" />
+                        </div>
+                    </div>
+                    <div class="large-2 feature">
+                        <h6 class="sans-serif" style="padding-top: 50%">THIS IS A GAME ABOUT <strong>SPEED</strong></h6>
+                    </div>
+                </div>                
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature">
+                        <h6 class="sans-serif" style="padding-top: 50%">3.2.1 <strong>GO!</strong> TOUCH THE CORRECT TILE</h6>
+                    </div>
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <img align="middle" src="img/123Tiles/123Tiles-5.png" alt="feature5" />
+                        </div>
+                    </div>
+                </div>   
+            </article>
+            <div style="width: 100%; background-color:white" class="page-desc center">
+                <br/>
+                 <h3 class="center">Are you ready to beat all 20 levels?</h3>
+                 <br/><br/>
+                 <a href="https://itunes.apple.com/app/123tiles-free-numbers-race/id1196313854?mt=8" target="_blank"><button class="center CTA CTA-download">Download Now</button></a>
+            </div>
+            <article>
+                <div class="project-assets">
+                    <div data-picture>
+                            <div data-src="img/123Tiles-6.png"></div>
+                            <div data-src="img/123Tiles-6.png" data-media="(-webkit-min-device-pixel-ratio: 2),(min--moz-device-pixel-ratio: 2),(-o-min-device-pixel-ratio: 2/1),(min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx)"></div>
+                            <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/TinyApps.JPG"></div>
+                            <![endif]-->
+                            <noscript>
+                                <img src="img/123Tiles-6.png" alt="" />
+                            </noscript>
+                        </div>
+                    </div>
+
+                </div> 
+            </article>
+
+   
+        <!--END .site-content-->
+        </section>
+
+
+ 
+        <nav role="navigation">
+            <ul class="cd-pagination animated-buttons custom-icons">
+                <li class="button"><a href="#0"><i>Prev</i></a></li>
+                <li class="button-main"><a href="index.html"><i>Home </i></a></li>
+                <li class="button"><a href="#0"><i>Next</i></a></li>
+
+            </ul>
+        </nav> <!-- cd-pagination-wrapper -->
+ 
+
+         <footer class="site-footer cf">
+            <p class="footer-text">© Copyright 2017 </p>
+            <nav class="languages" role="navigation">
+              <ul>
+             
+                <li class="active"><a href="#">EN |</a></li>
+                <li><a href="#">中文</a></li>
+             
+              </ul>
+            </nav> 
+        </footer>
+
+
+    <!--END .site-container-->
+    </div>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.fitvids.js"></script>
+    <script src="scripts/jquery.imagesloaded.min.js"></script>
+    <script src="scripts/main.js"></script>  
+ 
+
+</body>
+</html>
