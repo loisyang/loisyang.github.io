@@ -1406,19 +1406,26 @@ div.video-player button{
 div.row.feature-showcase{
     margin-top: 0;
     border-top: 1.5px #f1f1f1 solid;
-    border-bottom: 1.5px #f1f1f1 solid;
+    /*border-bottom: 1.5px #f1f1f1 solid;*/
 }
 
 div.large-2.feature{
     width: 50%;
     margin: 0;
 }
+
+
 div.large-2.showcase{
     width: 50%;
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #f1f1f1;
     margin:0;
+}
+div.large-2.showcase.wide{
+    padding: 0;
+    margin: 0;
+    background: none;
 }
 
 div.feature img{
@@ -1428,8 +1435,18 @@ div.feature img{
     padding-bottom: 5%;
 }
 
+div.feature.narrow img{
+    padding-top: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
 div.showcase video{
     width: 50%;
+}
+div.showcase.wide video{
+    padding: 5%;
+    width: 90%;   
 }
 
 div.showcase img{
