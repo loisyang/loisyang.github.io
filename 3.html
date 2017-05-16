@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="img/logo" href="img/Favicon.png">
+    <title>Lois Yang ・ Omega Go</title>
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Noto+Sans:400,700" rel="stylesheet">
+    <script src="scripts/modernizr.js"></script>
+
+</head>
+
+<!-- <body oncontextmenu="return false;"> -->
+<body>
+    
+    <a href="#cd-nav" class="cd-nav-trigger">Menu 
+        <span class="cd-nav-icon"></span>
+
+        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+        </svg>
+    </a>
+        
+    <div id="cd-nav" class="cd-nav">
+        <div class="cd-navigation-wrapper">
+            <div class="cd-half-block">
+
+
+                <nav>
+                    <ul class="cd-primary-nav">
+                        <li><a href="index.html" class="selected">Work</a></li>
+                        <li><a href="profile.html">About</a></li>
+                        <li><a href="#">Fun</a></li>
+                    </ul>
+                </nav>
+            </div><!-- .cd-half-block -->
+            
+            <div class="cd-half-block">
+                <address>
+                    <ul class="cd-contact-info">
+                        <li><a href="jingqiyanglois@gmail.com">jingqiyanglois@gmail.com</a></li>
+                    </ul>
+                    <ul class="cd-contact-socials">
+                        <li><a href="#0">Instagram</a></li>   
+                        <li><a href="#0">Behance</a></li>   
+                        <li><a href="#0">Dribbble</a></li>    
+                    </ul>
+                </address>
+            </div> <!-- .cd-half-block -->
+        </div> <!-- .cd-navigation-wrapper -->
+    </div> <!-- .cd-nav -->
+
+    <div class="site-container">
+
+        <header class="site-header cf">
+            <div class="site-title"><a href="index.html">LOIS YANG//</a></div>
+            <div class="cf"></div>
+        </header><!-- / .site-header -->
+
+        <section class="site-content">
+        
+            <div class="page-desc">
+                <h1 class="sans-serif">OMEGA GO</h1>
+                <p><strong> Launched in:</strong> Mar 2017 ・ <strong>Design:</strong> Lois Yang・ <strong>Code:</strong> James Ormond</p>
+                <p>Omega Go is an letter puzzle game that challenges your brain. It's a relaxing but addictive mobile game that you can play anywhere, anytime. Simply merge letters together to form higher letters; the higher the letter, the more points you earn!</p>
+                <p>Fun fact: The last Greek letter is Omega and the game play is similar to the classic board game <strong><a href="https://en.wikipedia.org/wiki/Go_(game)"> Go</a></strong>, so we call it "Omega Go".</p>
+                <a href="https://itunes.apple.com/app/omega-go-letter-puzzle/id1198814846?l=en&mt=8" target="_blank"><img src="img/AppStore.svg" width="175px" height="auto"></img></a>
+            </div>
+            
+            <article class="project">
+
+                <div class="project-assets">
+                    
+                    <div class="video-player center">
+                        <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload" style="width: 100%;display: block" id='video1'>
+                        <source src="video/OmegaGo.m4v" type="video/mp4">
+                        </video>
+                        <button id="button1" class="CTA center" onclick="replayWithSound()"><span class="music-bar"> 🎶 </span>Play with Sound</button>
+                    </div>
+                    <script> 
+                        var myVideo = document.getElementById("video1"); 
+                        var button = document.getElementById("button1")
+                        function replayWithSound() {
+                            console.log(myVideo.muted);
+                            if (myVideo.muted ){
+                                myVideo.muted = false;
+                                myVideo.currentTime = 0;
+                                myVideo.play(); 
+                                myVideo.loop = false;
+                                button.innerHTML = "<span class='music-bar'> </span>Mute the Video";
+                            } else {
+                                myVideo.muted = true;
+                                myVideo.loop = true;
+                                button.innerHTML = "<span class='music-bar'> 🎶 </span>Replay with Sound";
+                            }
+                        }
+                    </script> 
+
+                </div>         
+            </article>
+            <div style="width: 100%; background-color:white" class="page-desc center">
+                <br/>
+                 <h3 class="center">"An interesting twist of the classic 2048."</h3>
+                 <br/><br/>
+                 <h4 class="center">---  App Store Review  ---</h4>
+                 <br/><br/>
+            </div>
+
+            <article class="project">
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature">
+                        <img align="middle" src="img/OmegaGo/OGo-feature1.png" alt="feature1" />
+                        <h6 class="sans-serif"><strong>MERGE</strong> SAME LETTERS</h6>
+                    </div>
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/OmegaGo/1.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center feature-showcase"> 
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/OmegaGo/2.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="large-2 feature">
+                        <img align="middle" src="img/OmegaGo/OGo-feature2.png" alt="feature1" />
+                        <h6 class="sans-serif"><strong>UNLOCK</strong> NEW LETTERS</h6>
+                    </div>
+                </div>
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature">
+                        <img align="middle" src="img/OmegaGo/OGo-feature3.png" alt="feature1" />
+                        <h6 class="sans-serif"><strong>PLAN</strong> MOVES AHEAD</h6>
+                    </div>
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/OmegaGo/3.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row center feature-showcase"> 
+                    <div class="large-2 showcase">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/OmegaGo/4.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="large-2 feature">
+                        <img align="middle" src="img/OmegaGo/OGo-feature4.png" alt="feature1" />
+                        <h6 class="sans-serif"><strong>BOMB</strong> WHEN Zs MERGE</h6>
+                    </div>
+                </div>
+            </article>
+            <div style="width: 100%; background-color:white" class="page-desc center">
+                <br/>
+                 <h3 class="center">Are you ready to unlock all 26 letters?</h3>
+                 <br/><br/>
+                 <a href="https://itunes.apple.com/app/omega-go-letter-puzzle/id1198814846?l=en&mt=8" target="_blank"><img src="img/AppStore.svg" width="175px" height="auto"></img></a>
+                 <!-- <a href="https://itunes.apple.com/app/omega-go-letter-puzzle/id1198814846?l=en&mt=8" target="_blank"><button class="center CTA CTA-download">Download Now</button></a> -->
+            </div>
+            <article>
+                <div class="project-assets">
+                    <div data-picture>
+                            <div data-src="img/OmegaGo/OmegaGo6.png"></div>
+                            <div data-src="img/OmegaGo/OmegaGo6.png" data-media="(-webkit-min-device-pixel-ratio: 2),(min--moz-device-pixel-ratio: 2),(-o-min-device-pixel-ratio: 2/1),(min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx)"></div>
+                            <!--[if (lt IE 9) & (!IEMobile)]>
+                                <div data-src="img/OmegaGo/OmegaGo6.png"></div>
+                            <![endif]-->
+                            <noscript>
+                                <img src="img/OmegaGo/OmegaGo6.png" alt="" />
+                            </noscript>
+                        </div>
+                    </div>
+
+                </div> 
+            </article>
+
+   
+        <!--END .site-content-->
+        </section>
+
+
+ 
+        <nav role="navigation">
+            <ul class="cd-pagination animated-buttons custom-icons">
+                <li class="button"><a href="2.html"><i>Prev</i></a></li>
+                <li class="button-main"><a href="index.html"><i>Home </i></a></li>
+                <li class="button"><a href="4.html"><i>Next</i></a></li>
+
+            </ul>
+        </nav> <!-- cd-pagination-wrapper -->
+ 
+
+         <footer class="site-footer cf">
+            <p class="footer-text">© Copyright 2017 </p>
+            <nav class="languages" role="navigation">
+              <ul>
+             
+                <li class="active"><a href="#">EN |</a></li>
+                <li><a href="#">中文</a></li>
+             
+              </ul>
+            </nav> 
+        </footer>
+
+
+    <!--END .site-container-->
+    </div>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.fitvids.js"></script>
+    <script src="scripts/jquery.imagesloaded.min.js"></script>
+    <script src="scripts/main.js"></script>  
+ 
+
+</body>
+</html>

@@ -1056,7 +1056,7 @@ nav[role="navigation"] {
         padding: 60px;
     }
     .page-desc {
-        width: 75%;
+        width: 70%;
     }
     .page-desc h1,
     .page-desc h2,
@@ -1451,4 +1451,13 @@ div.showcase.wide video{
 
 div.showcase img{
     width: 50%;
+}
+
+/* App store download button */
+button.btn-app-store{
+    background: url("img/AppStore.svg") no-repeat span;
+    width:135px;
+    height: 40px;
+
+    border: none;
 }
