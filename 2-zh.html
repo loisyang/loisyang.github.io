@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="img/logo" href="img/Favicon.png">
+    <title>杨婧琦 ・ 雅马哈出行</title>
+    <link rel="stylesheet" href="style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Noto+Sans:400,700" rel="stylesheet">
+    <script src="scripts/modernizr.js"></script>
+
+</head>
+
+<body oncontextmenu="return false;">
+    
+    <a href="#cd-nav" class="cd-nav-trigger">目录 
+        <span class="cd-nav-icon"></span>
+
+        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+        </svg>
+    </a>
+        
+    <div id="cd-nav" class="cd-nav">
+        <div class="cd-navigation-wrapper">
+            <div class="cd-half-block">
+
+
+                <nav>
+                    <ul class="cd-primary-nav">
+                        <li><a href="index-zh.html" class="selected">作品</a></li>
+                        <li><a href="profile-zh.html">简介</a></li>
+                        <!-- <li><a href="#">Fun</a></li> -->
+                    </ul>
+                </nav>
+            </div><!-- .cd-half-block -->
+            
+            <div class="cd-half-block">
+                <address>
+                    <ul class="cd-contact-info">
+                        <li><a href="jingqiyanglois@gmail.com">jingqiyanglois@gmail.com</a></li>
+                    </ul>
+                    <ul class="cd-contact-socials">
+                        <li><a href="https://www.instagram.com/lois_in_pittsburgh/" target="_blank">Instagram</a></li>   
+                        <li><a href="https://www.linkedin.com/in/jingqiyang/" target="_blank">领英</a></li>   
+                        <li><a href="http://www.jingqiyang-lois.design/" target="_blank">Dribbble</a></li>    
+                    </ul>
+                </address>
+            </div> <!-- .cd-half-block -->
+        </div> <!-- .cd-navigation-wrapper -->
+    </div> <!-- .cd-nav -->
+
+    <div class="site-container">
+
+        <header class="site-header cf">
+            <div class="site-title"><a href="index-zh.html">杨婧琦//</a></div>
+            <div class="cf"></div>
+        </header><!-- / .site-header -->
+
+        <section class="site-content">
+        
+            <div class="page-desc">
+                 <h1 class="sans-serif">雅马哈出行</h1>
+                <p><strong> 时间:</strong> 2017.01 - 2017.05 ・ <strong>项目:</strong> 人机互动毕业设计 ・ <strong>我的职位: </strong>设计总监 </p>
+                <p><strong><a href="http://www.yamaha-motor.com/" target="_blank"> 雅马哈公司</a></strong>是一个全地形车辆的领先制造商, 也是一个不断挑战自动驾驶领域的科技公司。 2017年一月，雅马哈找到了我们人际互动小组, 想在我们的帮助下设计一个与自动驾驶汽车配套的软件程序。 </p>
+                <p><strong>雅马哈出行:</strong> 雅马哈出行是我们最后设计出的产品。 它是一个能够帮助全地形车辆的用户无障碍计划出行，掌握路况和完美导航的系统。坐在驾驶座位的乘客可以通过平板电脑来监控和控制自动驾驶的车辆。还没上车的乘客可以通过手机上的雅马哈出行程序发出专车接送请求。一车，一系统。雅马哈出行在未来可以帮助无数在山地，在森林，以及在建筑工地工作的人们快速安全的出行。
+</p>
+            </div>
+            
+            <article class="project">
+
+                <div class="project-assets">
+                    
+                    <div class="video-player center">
+                        <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload" style="width: 100%;display: block" id='video1'>
+                        <source src="video/YamaRide.m4v" type="video/mp4">
+                        </video>
+                        <button id="button1" class="CTA center" onclick="replayWithSound()"><span class="music-bar"> 🎶 </span>配合音乐播放</button>
+                    </div>
+                    <script> 
+                        var myVideo = document.getElementById("video1"); 
+                        var button = document.getElementById("button1");
+                        function replayWithSound() {
+                            console.log(myVideo.muted);
+                            if (myVideo.muted ){
+                                myVideo.muted = false;
+                                myVideo.currentTime = 0;
+                                myVideo.play(); 
+                                myVideo.loop = false;
+                                button.innerHTML = "<span class='music-bar'> </span>静音播放";
+                            } else {
+                                myVideo.muted = true;
+                                myVideo.loop = true;
+                                button.innerHTML = "<span class='music-bar'> 🎶 </span>Replay with Sound";
+                            }
+                        }
+                    </script> 
+
+                </div>         
+            </article>
+            <div style="width: 100%; background-color:white" class="page-desc center">
+                <br/>
+                 <h3 class="center">一个全地形车辆的“滴滴出行”</h3>
+                 <br/><br/>
+                 <!-- <h4 class="center">---    ---</h4> -->
+                 <br/><br/>
+                 <div class="row center feature-showcase">
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/ATV.png" alt="atv" />
+                        <h6 class="sans-serif" ><strong>自动驾驶全地形车</strong></h6>
+                        <h6 class="serif">配上一位驾驶员和一个平板电脑
+                        </h6>
+                    </div>
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/Passenger.png" alt="atv" />
+                        <h6 class="sans-serif" ><strong>农民鲍勃</strong></h6>
+                        <h6 class="serif">刚结束上山砍柴，准备用雅马哈出行回家.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <article class="project">
+                
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/ATV.png" alt="atv" />
+                        <h6 class="sans-serif" ><strong>1. 自动驾驶车 </strong></h6> <h6>设定目的地</h6>
+                    </div>
+                    <div class="large-2 showcase wide">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/YamaRide/1.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center feature-showcase"> 
+                    <div class="large-2 showcase wide">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/YamaRide/2.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/Passenger.png" alt="atv" />
+                        <h6 class="sans-serif"><strong>2. 鲍勃 </strong></h6> <h6>设定专车接送地点</h6>
+                    </div>
+                </div>
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/ATV.png" alt="feature1" />
+                        <h6 class="sans-serif"><strong>3. 自动驾驶车 </strong></h6><h6>接受鲍勃的专车请求</h6>
+                    </div>
+                    <div class="large-2 showcase wide">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/YamaRide/3.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row center feature-showcase"> 
+                    <div class="large-2 showcase wide">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/YamaRide/4.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/Passenger.png" alt="atv" />
+                        <h6 class="sans-serif"><strong>4. 鲍勃</strong></h6><h6>被通知专车到达时间</h6>
+                    </div>
+                </div>
+                <div class="row center feature-showcase">
+                    <div class="large-2 feature narrow">
+                        <img align="middle" src="img/YamaRide/ATV.png" alt="feature1" />
+                        <h6 class="sans-serif"><strong>5. 自动驾驶车 </strong> </h6><h6>完成整趟旅行</h6>
+                    </div>
+                    <div class="large-2 showcase wide">
+                        <div class="video-player center">
+                            <video autoplay="autoplay" loop muted preload="auto" controlslist="nodownload">
+                            <source src="img/YamaRide/5.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div> 
+            </article>
+            <div style="width: 100%; background-color:white" class="page-desc center">
+                <br/>
+                 <h3 class="center">那么，为什么要有全地形车的专车？</h3>
+                 <br/><br/>
+                 <p style="width: 60%; margin-left: 20%; text-align: left">对于大部分在城市工作的白领来说，全地形车辆非常少见。但是它却被广泛运用在农业、建筑业和服务业中。工人们驾驶它们在校园运送食物；农夫用他们来运载柴火和农作物；建筑工人则用他们配送零件。在上述情况中，驾驶一辆全地形车并不像我们平时开车兜风一样有趣。对于驾驶员来说，这是一项需要他们每天八个小时不断重复的工作。而且，当他们将一辆全地形车开走之后，这辆车并没有被有效利用。车辆大部分时间只是停在原地，等其主人完成一项工作。自动驾驶车的出现可以有效的解决这一问题。 一方面，工人们不用再担心自己过劳驾驶。享受旅途即可。另一方面，企业也能高效利用现有的车。自动驾驶车，不会取代人类，只是消除烦恼。</p>
+            </div>
+
+   
+        <!--END .site-content-->
+        </section>
+
+
+ 
+        <nav role="navigation">
+            <ul class="cd-pagination animated-buttons custom-icons">
+                <li class="button"><a href="1-zh.html"><i>Prev</i></a></li>
+                <li class="button-main"><a href="index-zh.html"><i>Home </i></a></li>
+                <li class="button"><a href="3-zh.html"><i>Next</i></a></li>
+
+            </ul>
+        </nav> <!-- cd-pagination-wrapper -->
+ 
+
+         <footer class="site-footer cf">
+            <p class="footer-text">© Copyright 2017 </p>
+            <nav class="languages" role="navigation">
+              <ul>
+             
+                <li class="active"><a href="2.html">EN |</a></li>
+                <li><a href="2-zh.html">中文</a></li>
+             
+              </ul>
+            </nav> 
+        </footer>
+
+
+    <!--END .site-container-->
+    </div>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.fitvids.js"></script>
+    <script src="scripts/jquery.imagesloaded.min.js"></script>
+    <script src="scripts/main.js"></script>  
+ 
+
+</body>
+</html>
