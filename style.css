@@ -35,7 +35,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*=================================*/
 /* Main Styles
 /*=================================*/
+@font-face {
+    font-family: kaiti;
+    src: url(HYHeiLiZhiTiJ.ttf);
+}
 
+div.site-title a.zh-Hans {
+    font-family: kaiti;
+    font-weight: 400;
+    clear: both;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    width: 100%;
+}
 * { box-sizing: border-box; }
 html {
     font-family:'Gentium Book Basic', sans-serif; /* 1 */
